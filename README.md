@@ -25,6 +25,33 @@ In this lab, we're going to practice finding elements in the DOM. To do so, we'r
 </body>
 ```
 
+``` html
+<body>
+  <div>
+    Hello!
+  </div>
+  
+  <div>
+    Goodbye!
+    </div>
+</body>
+```
+
+``` html
+<body>
+  <div>
+    Bitches! Learn to do this!
+  </div>
+  
+  <div>
+    It's fun!
+  </div>
+  
+  <div>
+    Don't fuck around!
+</div>
+
+
 If we called `document.querySelector('div')`, the method would return the first `div` (whose `.innerHTML` is "Hello!").
 
 Selectors aren't limited to tag names, though (otherwise why not just use `document.getElementsByTagName('div')[0]`?). We can get very fancy.
